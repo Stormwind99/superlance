@@ -2,7 +2,6 @@ from superlance.compat import httplib
 import socket
 import ssl
 
-
 class TimeoutHTTPConnection(httplib.HTTPConnection):
     """A customised HTTPConnection allowing a per-connection
     timeout, specified at construction."""
